@@ -1,0 +1,28 @@
+{
+  "defaultStyle": "terracotta",
+  "defaultHighlight": "github",
+  "showStyleUI": true,
+  "linkStyle": "inline",
+  "embedStyle": "content",
+  "lineNumber": false,
+  "authKey": "",
+  "wxInfo": [
+    {
+      "name": "",
+      "appid": "",
+      "secret": ""
+    }
+  ],
+  "math": "latex",
+  "useCustomCss": false,
+  "baseCSS": "",
+  "watermark": "",
+  "useFigcaption": false,
+  "customCSSNote": "",
+  "excalidrawToPNG": false,
+  "expertSettingsNote": "",
+  "ignoreEmptyLine": false,
+  "isVip": false,
+  "expireat": null,
+  "dismissedAnnouncements": []
+}

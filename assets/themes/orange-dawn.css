@@ -1,0 +1,382 @@
+/* =========================================================== */
+/* Orange Dawn - 橙色活力主题                                    */
+/* 配色：强调色 #f29718 / 正文 #5c6166 / 背景 #fcfcfc           */
+/* h2 橙色圆角标签 / h1 居中+橙色底线 / h3 橙色左边框           */
+/* =========================================================== */
+
+/* === 全局 === */
+.note-to-mp {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    color: #5c6166;
+    background-color: #fcfcfc;
+    line-height: 1.6;
+    padding: 1.5em 1em;
+    word-break: break-word;
+    -webkit-font-smoothing: antialiased;
+    text-autospace: normal;
+}
+
+.note-to-mp * {
+    box-sizing: border-box;
+}
+
+.note-to-mp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.note-to-mp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* === h1：居中 + 橙色底线 === */
+.note-to-mp h1 {
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: #5c6166;
+    text-align: center;
+    padding-bottom: 0.6em;
+    border-bottom: 3px solid #f29718;
+}
+
+/* === h2：橙色圆角标签（inline-block） === */
+.note-to-mp h2 {
+    line-height: 1.35;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 1.35em;
+    color: #fcfcfc;
+    background-color: #f29718;
+    padding: 2px 12px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* === h3：橙色左边框 === */
+.note-to-mp h3 {
+    line-height: 1.35;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #f29718;
+    border-left: 3px solid #f29718;
+    padding-left: 10px;
+}
+
+.note-to-mp h4 {
+    line-height: 1.35;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #5c6166;
+}
+
+.note-to-mp h5,
+.note-to-mp h6 {
+    line-height: 1.35;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-weight: 600;
+    font-size: 1em;
+    color: #5c6166;
+}
+
+/* === 段落 === */
+.note-to-mp p {
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+
+/* === 加粗：橙色 === */
+.note-to-mp strong,
+.note-to-mp b {
+    font-weight: 700;
+    color: #f29718;
+}
+
+.note-to-mp em,
+.note-to-mp i {
+    font-style: italic;
+    color: inherit;
+}
+
+.note-to-mp del,
+.note-to-mp s {
+    color: #828e9f;
+}
+
+/* === 分隔线：橙色半透明 === */
+.note-to-mp hr {
+    margin: 1.5em 0;
+    border: none;
+    border-top: 1px solid rgba(242, 151, 24, 0.3);
+    border-radius: 2px;
+}
+
+/* === 引用块：暖黄背景 + 橙色左边框 + 圆角 === */
+.note-to-mp blockquote {
+    display: block;
+    font-size: 0.95em;
+    overflow: auto;
+    border-left: 3px solid #f29718;
+    padding: 14px 20px;
+    margin: 1em 0;
+    background: #fff8ef;
+    border-radius: 6px;
+}
+
+.note-to-mp blockquote > :first-child {
+    margin-top: 0;
+}
+
+.note-to-mp blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.note-to-mp blockquote p {
+    line-height: 1.7;
+}
+
+/* === 无序列表 === */
+.note-to-mp ul {
+    margin-bottom: 1em;
+    padding-left: 2em;
+    list-style-type: disc;
+}
+
+.note-to-mp ul li {
+    margin-bottom: 0.4em;
+    line-height: 1.7;
+}
+
+.note-to-mp ul li > p {
+    margin: 0;
+}
+
+/* === 有序列表 === */
+.note-to-mp ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+    list-style-type: decimal;
+}
+
+.note-to-mp ol li {
+    margin-bottom: 0.4em;
+    line-height: 1.7;
+}
+
+.note-to-mp ol li > p {
+    margin: 0;
+}
+
+/* === 任务列表 === */
+.note-to-mp .task-list-item {
+    list-style-type: none;
+    text-indent: -1.5em;
+}
+
+.note-to-mp .task-list-item:before {
+    content: "";
+    display: static;
+    margin-right: 0;
+}
+
+.note-to-mp .task-list-item > input[type="checkbox"] {
+    text-indent: -1.7em;
+}
+
+/* === 链接 === */
+.note-to-mp a {
+    color: #f29718;
+    text-decoration: none;
+}
+
+/* === 图片 === */
+.note-to-mp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.note-to-mp figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #828e9f;
+    margin-top: 0.3em;
+}
+
+/* === 行内代码 === */
+.note-to-mp code {
+    font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+    word-break: break-all;
+    background-color: #d5d6db;
+    color: #565a6e;
+    padding: 0.15em 0.4em;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+/* === 代码块：浅灰底 + 橙色顶部边框 + 圆角 === */
+.note-to-mp pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.note-to-mp pre code {
+    display: inline;
+    color: inherit;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+.note-to-mp .code-section {
+    display: flex;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border-top: 2px solid #f29718;
+    margin: 1em 0;
+    overflow: hidden;
+}
+
+.note-to-mp .code-section pre {
+    margin: 0;
+    overflow-x: auto;
+    flex: 1;
+}
+
+.note-to-mp .code-section pre code {
+    display: block;
+    padding: 1em;
+    font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.875em;
+    line-height: 1.5;
+    color: #565a6e;
+    background-color: transparent;
+    text-wrap: nowrap;
+    white-space: pre;
+}
+
+/* 代码行号 */
+.note-to-mp .code-section ul {
+    flex-shrink: 0;
+    counter-reset: line;
+    margin: 0;
+    padding: 1em 0.6em 1em 0.8em;
+    white-space: normal;
+    width: fit-content;
+    background-color: #f0f1f3;
+    list-style: none;
+}
+
+.note-to-mp .code-section ul > li {
+    font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: right;
+    text-wrap: nowrap;
+    line-height: 1.5;
+    font-size: 0.875em;
+    list-style-type: none;
+    color: #9699a3;
+}
+
+.note-to-mp .code-section ul > li::marker {
+    content: none;
+}
+
+/* === 表格：橙色表头 + 浅灰网格 === */
+.note-to-mp table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.95em;
+    text-align: left;
+    margin: 1em 0;
+}
+
+.note-to-mp th {
+    padding: 8px 12px;
+    border: 1px solid #e6e8eb;
+    font-weight: bold;
+    color: #f29718;
+    background-color: rgba(242, 151, 24, 0.08);
+    text-align: center;
+    min-width: 6em;
+}
+
+.note-to-mp td {
+    padding: 8px 12px;
+    border: 1px solid #e6e8eb;
+    text-align: left;
+    color: #5c6166;
+}
+
+.note-to-mp tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* === 标记 === */
+.note-to-mp mark {
+    color: inherit;
+    display: inline;
+    padding: 0.15em 0.4em;
+    background-color: #fde68a;
+}
+
+/* === 下划线 === */
+.note-to-mp u {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* === 脚注 === */
+.note-to-mp .footnotes {
+    margin-top: 1.5em;
+    padding-top: 0.75em;
+    border-top: 1px solid #e6e8eb;
+    font-size: 0.875em;
+    color: #828e9f;
+}
+
+.note-to-mp .footnotes h4 {
+    font-weight: 500;
+    font-size: 1em;
+    color: #828e9f;
+}
+
+.note-to-mp .footnotes > ol {
+    list-style-type: decimal;
+    padding-left: 1.25em;
+}
+
+.note-to-mp .footnotes > ol li {
+    text-indent: 0;
+}
+
+.note-to-mp .footnotes > ol li::before {
+    float: left;
+}
+
+.note-to-mp .footnotes hr {
+    border-top: 1px solid #e6e8eb;
+}
+
+.note-to-mp .footnote-ref {
+    line-height: 0;
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #f29718;
+}

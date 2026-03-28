@@ -1,0 +1,399 @@
+/* =========================================================== */
+/* Terracotta - 赤陶暖棕主题                                     */
+/* 配色：赤陶 #c86442 / 浅棕 #e0a88a / 正文 #222 / 背景 #faf9f5 */
+/* h1 圆角橙底白字+h2/h3 左竖条+虚线底+虚线分隔                   */
+/* =========================================================== */
+
+/* === 全局 === */
+.note-to-mp {
+    font-family: 'PingFang SC', -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #222;
+    background-color: #faf9f5;
+    padding: 1em 0.5em;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    text-autospace: normal;
+}
+
+.note-to-mp * {
+    box-sizing: border-box;
+}
+
+.note-to-mp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.note-to-mp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* === h1：居中圆角赤陶底白字 === */
+.note-to-mp h1 {
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'PingFang SC', -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background: #c86442;
+    text-align: center;
+    padding: 1em 1.5em;
+    margin: 1.5em 8px 0.75em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(200, 100, 66, 0.2);
+}
+
+/* === h2：赤陶左边框 + 浅棕虚线底 === */
+.note-to-mp h2 {
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'PingFang SC', -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 20px;
+    color: #3f3f3f;
+    padding: 0 0 0.5em 12px;
+    margin: 2em 8px 0.75em 0;
+    border-left: 4px solid #c86442;
+    border-bottom: 1px dashed #e0a88a;
+}
+
+/* === h3：同h2样式（与参考一致） === */
+.note-to-mp h3 {
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'PingFang SC', -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 18px;
+    color: #3f3f3f;
+    padding: 0 0 0.4em 12px;
+    margin: 2em 8px 0.75em 0;
+    border-left: 4px solid #c86442;
+    border-bottom: 1px dashed #e0a88a;
+}
+
+.note-to-mp h4 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #3f3f3f;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+}
+
+.note-to-mp h5,
+.note-to-mp h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3f3f3f;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    line-height: 1.4;
+}
+
+/* === 段落 === */
+.note-to-mp p {
+    margin: 1.2em 8px;
+    text-align: justify;
+    line-height: 1.75;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #222;
+    word-break: break-word;
+}
+
+/* === 加粗：赤陶色 === */
+.note-to-mp strong,
+.note-to-mp b {
+    font-weight: bold;
+    color: #c86442;
+}
+
+.note-to-mp em,
+.note-to-mp i {
+    font-style: italic;
+    color: inherit;
+}
+
+.note-to-mp del,
+.note-to-mp s {
+    color: #999;
+}
+
+/* === 分隔线：赤陶虚线 === */
+.note-to-mp hr {
+    margin: 1.5em 8px;
+    border: none;
+    border-top: 1px dashed #c86442;
+    opacity: 0.35;
+}
+
+/* === 引用块：浅赤陶底 + 左竖条 + 右圆角 === */
+.note-to-mp blockquote {
+    display: block;
+    font-size: 0.95em;
+    overflow: auto;
+    border-left: 4px solid #c86442;
+    padding: 12px 20px;
+    margin: 1.2em 8px;
+    background: rgba(200, 100, 66, 0.05);
+    border-radius: 0 6px 6px 0;
+}
+
+.note-to-mp blockquote > :first-child {
+    margin-top: 0;
+}
+
+.note-to-mp blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.note-to-mp blockquote p {
+    margin: 0.5em 0;
+    line-height: 1.7;
+    color: #555;
+    letter-spacing: 0.05em;
+}
+
+/* === 无序列表 === */
+.note-to-mp ul {
+    margin: 0 8px 1.5em;
+    padding-left: 1.5em;
+    list-style-type: disc;
+}
+
+.note-to-mp ul li {
+    margin: 0.5em 0;
+    line-height: 1.75;
+    font-size: 15px;
+    color: #3f3f3f;
+}
+
+.note-to-mp ul li > p {
+    margin: 0;
+}
+
+/* === 有序列表 === */
+.note-to-mp ol {
+    margin: 0 8px 1.5em;
+    padding-left: 1.5em;
+    list-style-type: decimal;
+}
+
+.note-to-mp ol li {
+    margin: 0.5em 0;
+    line-height: 1.75;
+    font-size: 15px;
+    color: #3f3f3f;
+}
+
+.note-to-mp ol li > p {
+    margin: 0;
+}
+
+/* === 任务列表 === */
+.note-to-mp .task-list-item {
+    list-style-type: none;
+    text-indent: -1.5em;
+}
+
+.note-to-mp .task-list-item:before {
+    content: "";
+    display: static;
+    margin-right: 0;
+}
+
+.note-to-mp .task-list-item > input[type="checkbox"] {
+    text-indent: -1.7em;
+}
+
+/* === 链接 === */
+.note-to-mp a {
+    color: #c86442;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200, 100, 66, 0.3);
+}
+
+/* === 图片 === */
+.note-to-mp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.note-to-mp figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #999;
+    margin-top: 0.3em;
+}
+
+/* === 行内代码 === */
+.note-to-mp code {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    background: #d5d6db;
+    color: #565a6e;
+    padding: 0.15em 0.4em;
+    border-radius: 0;
+    border: none;
+    word-break: break-word;
+}
+
+/* === 代码块：浅底 + 赤陶顶线 + 圆角 + 阴影 === */
+.note-to-mp pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.note-to-mp pre code {
+    display: inline;
+    color: inherit;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+}
+
+.note-to-mp .code-section {
+    display: flex;
+    background-color: #fafaf9;
+    border-radius: 6px;
+    margin: 1.5em 8px;
+    overflow: hidden;
+    border-top: 3px solid #c86442;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0 2px 6px rgba(200, 100, 66, 0.1);
+}
+
+.note-to-mp .code-section pre {
+    margin: 0;
+    overflow-x: auto;
+    flex: 1;
+}
+
+.note-to-mp .code-section pre code {
+    display: block;
+    padding: 1em;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #565a6e;
+    background-color: rgba(200, 100, 66, 0.1);
+    text-wrap: nowrap;
+    white-space: pre;
+}
+
+/* 代码行号 */
+.note-to-mp .code-section ul {
+    flex-shrink: 0;
+    counter-reset: line;
+    margin: 0;
+    padding: 1em 0.6em 1em 0.8em;
+    white-space: normal;
+    width: fit-content;
+    background-color: rgba(200, 100, 66, 0.05);
+    list-style: none;
+}
+
+.note-to-mp .code-section ul > li {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: right;
+    text-wrap: nowrap;
+    line-height: 1.5;
+    font-size: 14px;
+    list-style-type: none;
+    color: #9699a3;
+}
+
+.note-to-mp .code-section ul > li::marker {
+    content: none;
+}
+
+/* === 表格：赤陶色表头 === */
+.note-to-mp table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    text-align: left;
+    margin: 1.2em 0;
+}
+
+.note-to-mp th {
+    padding: 10px 14px;
+    border: 1px solid #e8e4df;
+    font-weight: bold;
+    color: #c86442;
+    background-color: rgba(200, 100, 66, 0.06);
+    text-align: center;
+    min-width: 6em;
+    box-shadow: inset 0 -1px 0 rgba(200, 100, 66, 0.1);
+}
+
+.note-to-mp td {
+    padding: 10px 14px;
+    border: 1px solid #e8e4df;
+    text-align: left;
+    color: #3f3f3f;
+}
+
+.note-to-mp tbody tr:nth-child(even) {
+    background-color: #fafaf9;
+}
+
+/* === 标记 === */
+.note-to-mp mark {
+    color: inherit;
+    display: inline;
+    padding: 0.15em 0.4em;
+    background-color: #fde2e2;
+}
+
+/* === 下划线 === */
+.note-to-mp u {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* === 脚注 === */
+.note-to-mp .footnotes {
+    margin-top: 1.5em;
+    padding-top: 0.75em;
+    border-top: 1px dashed #c86442;
+    font-size: 0.875em;
+    color: #888;
+}
+
+.note-to-mp .footnotes h4 {
+    font-weight: 600;
+    color: #666;
+    font-size: 1em;
+}
+
+.note-to-mp .footnotes > ol {
+    list-style-type: decimal;
+    padding-left: 1.25em;
+}
+
+.note-to-mp .footnotes > ol li {
+    text-indent: 0;
+    margin-bottom: 0.2em;
+}
+
+.note-to-mp .footnotes > ol li::before {
+    float: left;
+}
+
+.note-to-mp .footnote-ref {
+    line-height: 0;
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #c86442;
+}

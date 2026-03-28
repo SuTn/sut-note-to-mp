@@ -1,0 +1,383 @@
+/* =========================================================== */
+/* Classic Ink - 经典墨韵主题                                    */
+/* 配色：纯黑 #111111 / 正文 #333333 / 背景 #f9f9f7              */
+/* 衬线字体 / 双线分隔 / 黑白经典报刊风格                         */
+/* =========================================================== */
+
+/* === 全局 === */
+.note-to-mp {
+    font-family: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333333;
+    background-color: #f9f9f7;
+    padding: 1.25em 1em;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    text-autospace: normal;
+}
+
+.note-to-mp * {
+    box-sizing: border-box;
+}
+
+.note-to-mp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.note-to-mp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* === h1：居中 + 双线底线 === */
+.note-to-mp h1 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    line-height: 1.2;
+    font-size: 2.25em;
+    font-weight: 900;
+    color: #111111;
+    text-align: center;
+    padding-bottom: 0.35em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px double #111111;
+}
+
+/* === h2：底部黑色实线 === */
+.note-to-mp h2 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.25em;
+    margin-bottom: 0.4em;
+    font-size: 1.625em;
+    color: #1a1a1a;
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid #111111;
+}
+
+/* === h3：左侧黑色竖条 === */
+.note-to-mp h3 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1.25em;
+    margin-bottom: 0.4em;
+    font-size: 1.375em;
+    color: #2a2a2a;
+    padding-left: 0.5em;
+    border-left: 4px solid #111111;
+}
+
+.note-to-mp h4 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #2a2a2a;
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    line-height: 1.3;
+}
+
+.note-to-mp h5,
+.note-to-mp h6 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #333333;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    line-height: 1.3;
+}
+
+/* === 段落：两端对齐 === */
+.note-to-mp p {
+    margin-bottom: 0.9em;
+    text-align: justify;
+    text-justify: inter-character;
+    word-break: break-word;
+}
+
+/* === 加粗：纯黑 === */
+.note-to-mp strong,
+.note-to-mp b {
+    font-weight: 700;
+    color: #111111;
+}
+
+.note-to-mp em,
+.note-to-mp i {
+    font-style: italic;
+    color: inherit;
+}
+
+.note-to-mp del,
+.note-to-mp s {
+    color: #888888;
+}
+
+/* === 分隔线：双线 === */
+.note-to-mp hr {
+    margin: 1.5em 0;
+    border: none;
+    border-top: 3px double #111111;
+    height: 0;
+}
+
+/* === 引用块：左边框 + 右边框 + 浅底 === */
+.note-to-mp blockquote {
+    margin: 1em 0;
+    padding: 0.75em 1em;
+    border-left: 4px solid #111111;
+    border-right: 1px solid #cccccc;
+    background-color: #f5f5f3;
+    color: #2a2a2a;
+}
+
+.note-to-mp blockquote > :first-child {
+    margin-top: 0;
+}
+
+.note-to-mp blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.note-to-mp blockquote p {
+    margin-bottom: 0;
+}
+
+/* === 无序列表 === */
+.note-to-mp ul {
+    margin-bottom: 0.9em;
+    padding-left: 1.6em;
+    list-style-type: disc;
+}
+
+.note-to-mp ul li {
+    margin-bottom: 0.2em;
+}
+
+.note-to-mp ul li > p {
+    margin: 0;
+}
+
+/* === 有序列表 === */
+.note-to-mp ol {
+    margin-bottom: 0.9em;
+    padding-left: 1.6em;
+    list-style-type: decimal;
+}
+
+.note-to-mp ol li {
+    margin-bottom: 0.2em;
+}
+
+.note-to-mp ol li > p {
+    margin: 0;
+}
+
+/* === 任务列表 === */
+.note-to-mp .task-list-item {
+    list-style-type: none;
+    text-indent: -1.5em;
+}
+
+.note-to-mp .task-list-item:before {
+    content: "";
+    display: static;
+    margin-right: 0;
+}
+
+.note-to-mp .task-list-item > input[type="checkbox"] {
+    text-indent: -1.7em;
+}
+
+/* === 链接 === */
+.note-to-mp a {
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+}
+
+/* === 图片 === */
+.note-to-mp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.note-to-mp figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #555555;
+    margin-top: 0.3em;
+}
+
+/* === 行内代码 === */
+.note-to-mp code {
+    font-family: 'Courier New', Courier, monospace;
+    background: #d5d6db;
+    color: #565a6e;
+    padding: 0.15em 0.4em;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+/* === 代码块：黑色边框 + 顶部粗线 === */
+.note-to-mp pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.note-to-mp pre code {
+    display: inline;
+    color: inherit;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+.note-to-mp .code-section {
+    display: flex;
+    background-color: #f5f5f3;
+    border: 1px solid #111111;
+    border-top: 3px solid #111111;
+    border-radius: 0;
+    margin: 1em 0;
+    overflow: hidden;
+}
+
+.note-to-mp .code-section pre {
+    margin: 0;
+    overflow-x: auto;
+    flex: 1;
+}
+
+.note-to-mp .code-section pre code {
+    display: block;
+    padding: 1em 1.125em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.875em;
+    line-height: 1.5;
+    color: #565a6e;
+    background-color: transparent;
+    text-wrap: nowrap;
+    white-space: pre;
+}
+
+/* 代码行号 */
+.note-to-mp .code-section ul {
+    flex-shrink: 0;
+    counter-reset: line;
+    margin: 0;
+    padding: 1em 0.6em 1em 0.8em;
+    white-space: normal;
+    width: fit-content;
+    background-color: #efefed;
+    list-style: none;
+}
+
+.note-to-mp .code-section ul > li {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: right;
+    text-wrap: nowrap;
+    line-height: 1.5;
+    font-size: 0.875em;
+    list-style-type: none;
+    color: #999999;
+}
+
+.note-to-mp .code-section ul > li::marker {
+    content: none;
+}
+
+/* === 表格：黑色表头 + 经典边框 === */
+.note-to-mp table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375em;
+    border: 1px solid #111111;
+    margin: 1em 0;
+}
+
+.note-to-mp th {
+    padding: 0.6em 0.875em;
+    border: 1px solid #888888;
+    text-align: left;
+    font-size: 0.875em;
+    color: #f9f9f7;
+    font-weight: 700;
+    background-color: #111111;
+    border-bottom: 2px solid #111111;
+}
+
+.note-to-mp td {
+    padding: 0.6em 0.875em;
+    border: 1px solid #888888;
+    text-align: left;
+    color: #333333;
+}
+
+.note-to-mp tbody tr:nth-child(even) {
+    background-color: #f5f5f3;
+}
+
+/* === 标记 === */
+.note-to-mp mark {
+    color: inherit;
+    display: inline;
+    padding: 0.15em 0.4em;
+    background-color: #f5f5f3;
+}
+
+/* === 下划线 === */
+.note-to-mp u {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* === 脚注 === */
+.note-to-mp .footnotes {
+    margin-top: 1.5em;
+    padding-top: 0.75em;
+    border-top: 2px solid #111111;
+    font-size: 0.875em;
+    color: #555555;
+}
+
+.note-to-mp .footnotes h4 {
+    font-family: 'PingFang SC', Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+    line-height: 1.2;
+    color: #444444;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.note-to-mp .footnotes > ol {
+    list-style-type: decimal;
+    padding-left: 1.25em;
+}
+
+.note-to-mp .footnotes > ol li {
+    text-indent: 0;
+    margin-bottom: 0.2em;
+}
+
+.note-to-mp .footnotes > ol li::before {
+    float: left;
+}
+
+.note-to-mp .footnote-ref {
+    line-height: 0;
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #111111;
+    font-weight: 700;
+    text-decoration: none;
+}

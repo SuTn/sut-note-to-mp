@@ -1,0 +1,397 @@
+/* =========================================================== */
+/* Jade Fresh - 翡翠清新主题                                     */
+/* 配色：强调色 #2bae85 / 正文 #2c2c2c / 背景 白色              */
+/* h1 圆角药片标签 / h2 左竖条+浅绿底 / h3 绿色左边框            */
+/* =========================================================== */
+
+/* === 全局 === */
+.note-to-mp {
+    font-family: PingFang SC, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2c2c2c;
+    padding: 1em;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    text-autospace: normal;
+}
+
+.note-to-mp * {
+    box-sizing: border-box;
+}
+
+.note-to-mp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.note-to-mp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* === h1：居中绿色圆角药片标签 === */
+.note-to-mp h1 {
+    font-weight: 700;
+    line-height: 1.4em;
+    word-break: break-all;
+    font-size: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+    color: #2c2c2c;
+    background: #2bae85;
+    padding: 8px 24px;
+    border-radius: 24px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* === h2：左侧绿色竖条 + 浅绿背景 + 右圆角 === */
+.note-to-mp h2 {
+    font-weight: 700;
+    line-height: 1.4em;
+    word-break: break-all;
+    font-size: 22px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    color: #2c2c2c;
+    border-left: 4px solid #2bae85;
+    background: rgba(43, 174, 133, 0.06);
+    padding: 8px 14px;
+    border-radius: 0 6px 6px 0;
+}
+
+/* === h3：绿色左边框 + 绿色文字 === */
+.note-to-mp h3 {
+    font-weight: 700;
+    line-height: 1.4em;
+    word-break: break-all;
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    color: #2bae85;
+    padding-left: 14px;
+    border-left: 4px solid #2bae85;
+}
+
+.note-to-mp h4 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #2c2c2c;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.note-to-mp h5,
+.note-to-mp h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #2c2c2c;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+/* === 段落 === */
+.note-to-mp p {
+    margin: 5px 0 20px;
+    line-height: 1.8;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+    word-break: break-all;
+}
+
+/* === 加粗：绿色 === */
+.note-to-mp strong,
+.note-to-mp b {
+    font-weight: 700;
+    color: #2bae85;
+}
+
+.note-to-mp em,
+.note-to-mp i {
+    font-style: italic;
+    color: inherit;
+}
+
+.note-to-mp del,
+.note-to-mp s {
+    color: #828e9f;
+}
+
+/* === 分隔线：绿色渐变 === */
+.note-to-mp hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2bae85, transparent);
+    margin: 32px 0;
+}
+
+/* === 引用块：浅绿背景 + 绿色左边框 + 圆角 === */
+.note-to-mp blockquote {
+    margin: 20px 0;
+    padding: 16px 20px;
+    border-left: 3px solid #2bae85;
+    background: #f0faf6;
+    border-radius: 8px;
+}
+
+.note-to-mp blockquote > :first-child {
+    margin-top: 0;
+}
+
+.note-to-mp blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+.note-to-mp blockquote p {
+    margin: 8px 0;
+    color: #555;
+}
+
+/* === 无序列表：绿色标记 === */
+.note-to-mp ul {
+    margin: 8px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #2bae85;
+}
+
+.note-to-mp ul li {
+    margin: 0.6em 0;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+
+.note-to-mp ul li > p {
+    margin: 0;
+}
+
+/* === 有序列表：绿色编号 === */
+.note-to-mp ol {
+    margin: 8px 0;
+    padding-left: 20px;
+    list-style-type: decimal;
+    color: #2bae85;
+}
+
+.note-to-mp ol li {
+    margin: 0.6em 0;
+    line-height: 1.8;
+    color: #2c2c2c;
+}
+
+.note-to-mp ol li > p {
+    margin: 0;
+}
+
+/* === 任务列表 === */
+.note-to-mp .task-list-item {
+    list-style-type: none;
+    text-indent: -1.5em;
+}
+
+.note-to-mp .task-list-item:before {
+    content: "";
+    display: static;
+    margin-right: 0;
+}
+
+.note-to-mp .task-list-item > input[type="checkbox"] {
+    text-indent: -1.7em;
+}
+
+/* === 链接 === */
+.note-to-mp a {
+    color: #2bae85;
+    text-decoration: none;
+}
+
+/* === 图片 === */
+.note-to-mp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.note-to-mp figcaption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #828e9f;
+    margin-top: 0.3em;
+}
+
+/* === 行内代码 === */
+.note-to-mp code {
+    font-family: 'SF Mono', Consolas, Monaco, 'Courier New', monospace;
+    word-break: break-all;
+    background: #d5d6db;
+    color: #565a6e;
+    padding: 0.15em 0.4em;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+/* === 代码块：浅绿底 + 左侧绿色边框 + 圆角 === */
+.note-to-mp pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.note-to-mp pre code {
+    display: inline;
+    color: inherit;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    font-size: 0.875em;
+}
+
+.note-to-mp .code-section {
+    display: flex;
+    background: #f6faf8;
+    border: none;
+    border-left: 3px solid #2bae85;
+    border-radius: 8px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.note-to-mp .code-section pre {
+    margin: 0;
+    overflow-x: auto;
+    flex: 1;
+}
+
+.note-to-mp .code-section pre code {
+    display: block;
+    padding: 1em;
+    font-family: 'SF Mono', Consolas, Monaco, 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #565a6e;
+    background: rgba(43, 174, 133, 0.08);
+    text-wrap: nowrap;
+    white-space: pre;
+}
+
+/* 代码行号 */
+.note-to-mp .code-section ul {
+    flex-shrink: 0;
+    counter-reset: line;
+    margin: 0;
+    padding: 1em 0.6em 1em 0.8em;
+    white-space: normal;
+    width: fit-content;
+    background: rgba(43, 174, 133, 0.04);
+    list-style: none;
+    color: #2bae85;
+}
+
+.note-to-mp .code-section ul > li {
+    font-family: 'SF Mono', Consolas, Monaco, 'Courier New', monospace;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: right;
+    text-wrap: nowrap;
+    line-height: 1.6;
+    font-size: 14px;
+    list-style-type: none;
+    color: #9699a3;
+}
+
+.note-to-mp .code-section ul > li::marker {
+    content: none;
+}
+
+/* === 表格：绿色表头 + 浅绿交替行 === */
+.note-to-mp table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.note-to-mp th {
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 700;
+    color: #22916e;
+    border-left: none;
+    border-right: none;
+    background: rgba(43, 174, 133, 0.08);
+    border-bottom: 2px solid rgba(43, 174, 133, 0.2);
+}
+
+.note-to-mp td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eef2f0;
+    border-left: none;
+    border-right: none;
+    color: #2c2c2c;
+}
+
+.note-to-mp tbody tr:nth-child(even) {
+    background: rgba(43, 174, 133, 0.03);
+}
+
+/* === 标记 === */
+.note-to-mp mark {
+    color: inherit;
+    display: inline;
+    padding: 0.15em 0.4em;
+    background-color: #d4edda;
+}
+
+/* === 下划线 === */
+.note-to-mp u {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* === 脚注 === */
+.note-to-mp .footnotes {
+    margin-top: 1.5em;
+    padding-top: 0.75em;
+    border-top: 1px solid #eef2f0;
+    font-size: 0.875em;
+    color: #828e9f;
+}
+
+.note-to-mp .footnotes h4 {
+    font-weight: 500;
+    font-size: 1em;
+    color: #828e9f;
+}
+
+.note-to-mp .footnotes > ol {
+    list-style-type: decimal;
+    padding-left: 1.25em;
+}
+
+.note-to-mp .footnotes > ol li {
+    text-indent: 0;
+}
+
+.note-to-mp .footnotes > ol li::before {
+    float: left;
+}
+
+.note-to-mp .footnotes hr {
+    background: #eef2f0;
+}
+
+.note-to-mp .footnote-ref {
+    vertical-align: super;
+    font-size: 0.75em;
+    line-height: 0;
+    color: #2bae85;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(43, 174, 133, 0.5);
+}

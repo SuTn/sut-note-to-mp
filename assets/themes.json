@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Maple", 
+        "className": "maple",
+        "desc": "改自https://github.com/xbmlz/hexo-theme-maple",
+        "author": "Sun Booshi"
+    },
+    {
+        "name": "MWeb Ayu",
+        "className": "mweb-ayu",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Bear Default",
+        "className": "mweb-bear-default",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Contrast",
+        "className": "mweb-contrast",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb D Boring",
+        "className": "mweb-d-boring",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Default",
+        "className": "mweb-default",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Duotone Heat",
+        "className": "mweb-duotone-heat",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Duotone Light",
+        "className": "mweb-duotone-light",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Gandalf",
+        "className": "mweb-gandalf",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Indigo",
+        "className": "mweb-indigo",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Jzman",
+        "className": "mweb-jzman",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Lark Bold Color",
+        "className": "mweb-lark-bold-color",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Lark",
+        "className": "mweb-lark",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Olive Dunk",
+        "className": "mweb-olive-dunk",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Red Graphite",
+        "className": "mweb-red-graphite",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Smartblue",
+        "className": "mweb-smartblue",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Solarized Light",
+        "className": "mweb-solarized-light",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Typo",
+        "className": "mweb-typo",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb V Green",
+        "className": "mweb-v-green",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Vue",
+        "className": "mweb-vue",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Ayu Mirage",
+        "className": "mweb-ayu-mirage",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Charcoal",
+        "className": "mweb-charcoal",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Cobalt",
+        "className": "mweb-cobalt",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Dark Graphite",
+        "className": "mweb-dark-graphite",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Dieci",
+        "className": "mweb-dieci",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Dracula",
+        "className": "mweb-dracula",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Gotham",
+        "className": "mweb-gotham",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Lighthouse",
+        "className": "mweb-lighthouse",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Nord",
+        "className": "mweb-nord",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Panic",
+        "className": "mweb-panic",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Solarized Dark",
+        "className": "mweb-solarized-dark",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "MWeb Toothpaste",
+        "className": "mweb-toothpaste",
+        "desc": "MWeb-Themes https://github.com/imageslr/mweb-themes",
+        "author": "imageslr"
+    },
+    {
+        "name": "Fresh Modern",
+        "className": "fresh-modern",
+        "desc": "清新现代主题，蓝色调，大留白，适合技术/知识类文章",
+        "author": "Custom"
+    },
+    {
+        "name": "Warm Elegant",
+        "className": "warm-elegant",
+        "desc": "温暖雅致主题，琥珀色调，圆角卡片，适合散文/生活类文章",
+        "author": "Custom"
+    },
+    {
+        "name": "Cool Professional",
+        "className": "cool-professional",
+        "desc": "冷色专业主题，靛蓝色调，紧凑信息密度，适合商业/分析类文章",
+        "author": "Custom"
+    },
+    {
+        "name": "Navy Pro",
+        "className": "navy-pro",
+        "desc": "深蓝专业排版，参考优质公众号风格，深蓝标题栏+蓝色边框+斑马纹表格",
+        "author": "Custom"
+    },
+    {
+        "name": "Orange Dawn",
+        "className": "orange-dawn",
+        "desc": "橙色活力主题，h2圆角标签+h1橙色底线+h3橙色左边框，现代公众号排版",
+        "author": "Custom"
+    },
+    {
+        "name": "Jade Fresh",
+        "className": "jade-fresh",
+        "desc": "翡翠清新主题，h1绿色药片标签+h2浅绿底左竖条+h3绿色边框，清新自然风",
+        "author": "Custom"
+    },
+    {
+        "name": "Classic Ink",
+        "className": "classic-ink",
+        "desc": "经典墨韵主题，衬线字体+双线分隔+黑白报刊风，纯黑配色沉稳大气",
+        "author": "Custom"
+    },
+    {
+        "name": "Rose Classic",
+        "className": "rose-classic",
+        "desc": "玫瑰雅韵主题，衬线字体+金色强调+玫瑰竖条+斜体引用，温婉书卷气",
+        "author": "Custom"
+    },
+    {
+        "name": "Terracotta",
+        "className": "terracotta",
+        "desc": "赤陶暖棕主题，圆角橙底h1+赤陶竖条h2/h3+虚线分隔+暖纸背景，温暖自然",
+        "author": "Custom"
+    }
+]
