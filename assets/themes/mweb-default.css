@@ -194,15 +194,15 @@
 }
 .note-to-mp .code-section pre {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   overflow-x: auto;
 }
 .note-to-mp .code-section pre code {
   font-family: Consolas, ui-monospace, SFMono-Regular, Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
   border: none;
   font-size: 1em;
-  line-height: 1.8em;
-  padding: 1em;
+  line-height: 1.6em;
+  padding: 0;
   display: block;
   text-wrap: nowrap;
 }

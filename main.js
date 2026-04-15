@@ -87322,7 +87322,7 @@ Code
 .note-to-mp .code-section {
     display: flex;
     border: rgb(240, 240, 240) 1px solid;
-    line-height: 26px;
+    line-height: 1.6;
     font-size: 14px;
     margin: 1em 0;
     padding: 0.875em;
@@ -87336,7 +87336,7 @@ Code
     flex-shrink: 0;
     height: 100%;
     padding: 0;
-    line-height: 26px;
+    line-height: 1.6;
     list-style-type: none;
     backgroud: transparent !important;
 }
@@ -102631,9 +102631,6 @@ ${customCSS}`;
     this.imagesReplaced = true;
   }
   async copyArticle(container, css2, appid) {
-    if (appid) {
-      await this.uploadImages(appid, container);
-    }
     const content = this.getArticleContent(container, css2);
     await navigator.clipboard.write([new ClipboardItem({
       "text/html": new Blob([content], { type: "text/html" })

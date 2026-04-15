@@ -250,13 +250,14 @@
 
 .note-to-mp .code-section pre {
     margin: 0;
+    padding: 1em;
     overflow-x: auto;
     flex: 1;
 }
 
 .note-to-mp .code-section pre code {
     display: block;
-    padding: 1em;
+    padding: 0;
     font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 0.875em;
     line-height: 1.5;
