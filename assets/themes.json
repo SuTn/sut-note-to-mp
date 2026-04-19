@@ -244,5 +244,11 @@
         "className": "terracotta",
         "desc": "赤陶暖棕主题，圆角橙底h1+赤陶竖条h2/h3+虚线分隔+暖纸背景，温暖自然",
         "author": "Custom"
+    },
+    {
+        "name": "Chat Dialog",
+        "className": "chat-dialog",
+        "desc": "对话气泡主题，chat代码块自动渲染气泡（蓝灰配色），适合对话式教程",
+        "author": "Custom"
     }
 ]

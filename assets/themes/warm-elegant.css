@@ -359,3 +359,13 @@
     height: 1px;
     background-color: #e7dfd5;
 }
+
+/* === chat 代码块：气泡布局 === */
+.note-to-mp .chat-wrap { margin: 0; }
+.note-to-mp .chat-wrap-r { text-align: right; margin: 6px 0; }
+.note-to-mp .chat-wrap-l { text-align: left; margin: 6px 0; }
+.note-to-mp .chat-bubble-r { display: inline-block; max-width: 80%; padding: 10px 14px; background-color: #5c4a3a; color: #fff; border-radius: 16px 16px 4px 16px; text-align: right; font-size: 15px; line-height: 1.6; word-break: break-word; }
+.note-to-mp .chat-name-r { display: block; font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 4px; }
+.note-to-mp .chat-bubble-l { display: inline-block; max-width: 80%; padding: 10px 14px; background-color: #fdf0e0; color: #2c1810; border-radius: 16px 16px 16px 4px; text-align: left; font-size: 15px; line-height: 1.6; word-break: break-word; }
+.note-to-mp .chat-name-l { display: block; font-size: 12px; font-weight: 600; color: rgba(0,0,0,0.35); margin-bottom: 4px; }
+.note-to-mp .chat-narration { text-align: center; font-size: 13px; color: #92400e; font-style: italic; padding: 6px 0; line-height: 1.5; }

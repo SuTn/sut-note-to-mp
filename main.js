@@ -100897,6 +100897,25 @@ var CodeRenderer = class _CodeRenderer extends Extension {
       signature: signatureMatch ? signatureMatch[1] : "\u516C\u4F17\u53F7\u4ECB\u7ECD"
     };
   }
+  renderChat(token) {
+    const lines = token.text.split("\n").filter(l => l.trim() !== "");
+    let html = "";
+    for (const line of lines) {
+      const match = line.match(/^(.+?)[：:](.*)/);
+      if (match) {
+        const name = match[1].trim();
+        const text = match[2].trim();
+        if (name === "老公") {
+          html += `<section class="chat-wrap chat-wrap-r"><section class="chat-bubble chat-bubble-r"><span class="chat-name chat-name-r">${name}</span>${text}</section></section>`;
+        } else {
+          html += `<section class="chat-wrap chat-wrap-l"><section class="chat-bubble chat-bubble-l"><span class="chat-name chat-name-l">${name}</span>${text}</section></section>`;
+        }
+      } else {
+        html += `<section class="chat-narration">${line.trim()}</section>`;
+      }
+    }
+    return html;
+  }
   renderCard(token) {
     const { id, headimg, nickname, signature } = this.parseCard(token.text);
     if (id === "") {
@@ -100934,6 +100953,10 @@ var CodeRenderer = class _CodeRenderer extends Extension {
             token.html = this.renderMermaid(token);
             return;
           }
+        }
+        if (token.lang && token.lang.trim().toLocaleLowerCase() == "chat") {
+          token.html = this.renderChat(token);
+          return;
         }
         if (token.lang && token.lang.trim().toLocaleLowerCase() == "mpcard") {
           token.html = isWechat ? this.renderCard(token) : "";
